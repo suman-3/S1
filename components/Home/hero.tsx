@@ -1,5 +1,5 @@
-import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/utils/modal-video";
+import VideoThumb from "@/public/images/hero-image.png";
 
 export default function Hero() {
   return (
@@ -42,17 +42,20 @@ export default function Hero() {
               data-aos="zoom-y-out"
             >
               Kolkata's First <br /> Software + Hardware <br />
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-950 to-green-400">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-red-400">
                 Hackathon
               </span>
             </h1>
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-5xl mx-auto">
               <p
                 className="text-xl text-gray-600 mb-8"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Join <span className="font-bold">Union,</span> Kolkata's premier Software + Hardware Hackathon! 36 hours of innovation, collaboration, and groundbreaking projects. Ready to hack the future? Register now!
+                <span className="font-bold">Union,</span> Kolkata's premier
+                Software + Hardware Hackathon! 30 hours of innovation,
+                collaboration, and groundbreaking projects. Ready to hack the
+                future? Register now!
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -62,9 +65,9 @@ export default function Hero() {
                 <div>
                   <a
                     className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
+                    href="/tracks"
                   >
-                    Download Problem Statement
+                    Tracks
                   </a>
                 </div>
                 <div>
