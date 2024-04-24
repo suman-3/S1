@@ -14,7 +14,7 @@ Now, to clone this repository to your local machine, copy the url of the forked 
 Now, open a terminal and run the following command:
 
 ```
-git clone https://github.com/unionuem/unionS1.git unionuem
+git clone https://github.com/InnoFusionHackathon/S1.git InnoFusionHackathon
 ```
 
 ## Create a branch
@@ -22,7 +22,7 @@ git clone https://github.com/unionuem/unionS1.git unionuem
 After cloning the repository, change the current working directory to the repository directory by running the following command:
 
 ```
-cd unionuem
+cd InnoFusionHackathon
 ```
 Before making any changes, make sure to always create a new branch. To create a new brach run the following command:
 
