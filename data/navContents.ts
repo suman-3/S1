@@ -11,8 +11,8 @@ const navContents = [
   },
   {
     key: 3,
-    label: "Team",
-    path: "team",
+    label: "Tracks",
+    path: "/#Tracks",
   },
   {
     key: 4,
@@ -21,13 +21,13 @@ const navContents = [
   },
   {
     key: 5,
-    label: "Tracks",
-    path: "/#Tracks",
+    label: "Prizepool",
+    path: "prizepool",
   },
   {
     key: 6,
-    label: "Prizepool",
-    path: "prizepool",
+    label: "Team",
+    path: "team",
   },
   {
     key: 7,
