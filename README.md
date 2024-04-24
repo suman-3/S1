@@ -1,4 +1,4 @@
-<h1 align="center">UEMK's Union Hackathon</h1>
+<h1 align="center">UEMK's InnoFusion Hackathon</h1>
 <div align="center">
     
 <p align="center">
@@ -8,8 +8,8 @@
 </div>
 <br>
 
-<h2 align="center">What is Union?</h2>
-<p align="center">Kolkata's premier Software + Hardware Hackathon! 36 hours of innovation, collaboration, and groundbreaking projects. Ready to hack the future?</p>
+<h2 align="center">What is InnoFusion?</h2>
+<p align="center">Kolkata's premier Software + Hardware Hackathon! 30 hours of innovation, collaboration, and groundbreaking projects. Ready to hack the future?</p>
 
 
 <div  align="center" >
@@ -22,7 +22,7 @@
 
 </br>
 
-## Contributing to Union Season 1 🔐
+## Contributing to InnoFusion Season 1 🔐
 
 Remember, Good PR makes you a Good contributor !
 
