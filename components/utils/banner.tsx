@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 
 export default function Banner() {
   const [top, setTop] = useState<boolean>(true);
-  // detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
     window.pageYOffset > 10 ? setTop(false) : setTop(true);
   };
@@ -18,9 +17,9 @@ export default function Banner() {
   }, [top]);
   return (
     <>
-      <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50">
+      <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50 max-md:p-4">
         {!top ? (
-          <Link href="/" scroll={true}>
+          <Link href="" scroll={true}>
             <ArrowUpFromDot />
           </Link>
         ) : (

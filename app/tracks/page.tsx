@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Features() {
+export default function Tracks() {
   const [butt, setButt] = useState("");
   console.log(butt);
 
@@ -32,7 +32,6 @@ export default function Features() {
               </button>
             </div>
           </center>
-
         </div>
       </div>
     </section>

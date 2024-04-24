@@ -1,8 +1,8 @@
-import "./css/style.css";
-import { Inter } from "next/font/google";
-import Header from "@/components/Header/header";
-import Banner from "@/components/utils/banner";
 import Footer from "@/components/Footer/footer";
+import Header from "@/components/Navbar/Navbar";
+import Banner from "@/components/utils/banner";
+import { Inter } from "next/font/google";
+import "./css/style.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Union Hackathon",
+  title: "InnoFusion 1.0",
   description: "Kolkata's First ever Hardware + Software Hackathon",
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body
         className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}
       >

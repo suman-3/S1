@@ -1,7 +1,7 @@
 export default function Newsletter() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl pt-20 mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           <div
             className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
@@ -93,7 +93,7 @@ export default function Newsletter() {
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-2">
-                  Want early news from us?
+                  Want to be among the earliest?
                 </h3>
                 <p className="text-gray-300 text-lg mb-6">
                   Subscribe with you email, to get early news for the hackathon.

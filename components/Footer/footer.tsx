@@ -7,11 +7,11 @@ export default function Footer() {
       <center className="mb-5">
         <div className="shrink-0 mb-2">
           <Link href="/" className="font-bold text-2xl">
-            Union 1.0
+            InnoFusion 1.0
           </Link>
         </div>
-        <div className="md:flex md:items-center py-4 md:py-4 border-t border-black">
-          <ul className="flex mb-4 md:order-1 md:mb-1 py-0">
+        <div className="md:items-center py-4 md:py-4 border-t border-black">
+          <ul className="flex mb-4 py-0 justify-center">
             <li>
               <a
                 href="https://www.facebook.com/coderpalash"
@@ -63,8 +63,9 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-          <div className="text-sm text-gray-600 mr-4">
-            &copy; UEM-IEM Group. All rights reserved.
+          <div className="text-sm text-gray-600">
+            &copy; IEM Kolkata under University of Engineering and Management.
+            All rights reserved.
           </div>
         </div>
       </center>

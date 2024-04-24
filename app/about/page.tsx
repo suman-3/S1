@@ -6,7 +6,7 @@ import Image from "next/image";
 import FeaturesBg from "@/public/images/features-bg.png";
 import FeaturesElement from "@/public/images/features-element.png";
 
-export default function Features() {
+export default function About() {
   const [tab, setTab] = useState<number>(1);
   const tabs = useRef<HTMLDivElement>(null);
   const heightFix = () => {
