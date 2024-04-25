@@ -29,8 +29,11 @@ export default function About() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Tracks of the hackathon.</p>
+            <h6 className="mb-4 uppercase !text-gray-500 font-semibold">
+              About us
+            </h6>
+            <h2 className="h4 mb-1">InnoFusion Hackathon</h2>
+            <p className="text-xl text-gray-600">Organized By University of Engineering & Management, Kolkata</p>
           </div>
 
           <div className="md:grid md:grid-cols-12 md:gap-6">

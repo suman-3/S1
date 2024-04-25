@@ -4,9 +4,11 @@ import React from "react";
 const PricePool = () => {
   return (
     <MaxWidthWrapper>
-      <div className="flex flex-col items-center justify-center pt-24 pb-10 text-7xl">
-        PrizePool
-      </div>
+      <section className="relative pt-12 my-10 md:pt-20">
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
+          <h2 className="h2 mb-1">Prize Pool</h2>
+        </div>
+      </section>
     </MaxWidthWrapper>
   );
 };

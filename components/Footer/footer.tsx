@@ -64,7 +64,7 @@ export default function Footer() {
             </li>
           </ul>
           <div className="text-sm text-gray-600">
-            &copy; IEM Kolkata under University of Engineering and Management.
+            &copy; University of Engineering and Management, Kolkata.
             All rights reserved.
           </div>
         </div>
