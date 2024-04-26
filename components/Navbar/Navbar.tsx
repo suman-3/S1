@@ -3,6 +3,7 @@
 import Link from "next/link";
 import MobileMenu from "./MobileNav";
 import navContents from "../../data/navContents";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -13,7 +14,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="shrink-0 mr-4">
             <Link href="/" className="font-bold md:text-3xl text-2xl">
-              InnoFusion 1.0
+              <Image src="/images/logo.png" height={50} width={50} alt="IF Logo"/>
             </Link>
           </div>
           <nav className="max-lg:hidden">
