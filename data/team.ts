@@ -322,8 +322,8 @@ export const documentationTeam = [
     role: "Documentation Expert",
     linkedin: "https://www.linkedin.com/in/amitabh-daripa-1635a3257",
     twitter: "/",
-    position: "",
-    org: "",
+    position: "Vice Chair",
+    org: "IEEE UEMK SB",
   },
 ];
 
