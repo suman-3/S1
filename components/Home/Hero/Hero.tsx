@@ -1,7 +1,20 @@
+"use client";
+
 import ModalVideo from "@/components/utils/modal-video";
 import VideoThumb from "@/public/images/hero-image.png";
+import { useEffect } from "react";
 
 export default function Hero() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <section className="relative">
       <div
@@ -62,22 +75,11 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                <div>
-                  <a
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="/tracks"
-                  >
-                    Tracks
-                  </a>
-                </div>
-                <div>
-                  <a
-                    className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                    href="#0"
-                  >
-                    Register Now!
-                  </a>
-                </div>
+                <div
+                  className="apply-button"
+                  data-hackathon-slug="innofusionhackathon"
+                  data-button-theme="light"
+                ></div>
               </div>
             </div>
           </div>
