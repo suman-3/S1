@@ -1,4 +1,4 @@
-export const organizerTeam = [
+export const LeadOrganizerTeam = [
   {
     id: 1,
     name: "Avik",
@@ -17,19 +17,19 @@ export const organizerTeam = [
   },
   {
     id: 3,
-    name: "Sagnik",
-    category: "organizer",
-    role: "Co-Lead Organizer",
-    linkedin: "https://www.linkedin.com/in/sagnik-bhattacharya-81349a247/",
-    twitter: "",
-  },
-  {
-    id: 4,
     name: "Alik",
     category: "organizer",
     role: "Co-Lead Organizer",
     linkedin: "https://www.linkedin.com/in/alik-agarwala",
     twitter: "https://www.x.com/alikagarwala",
+  },
+  {
+    id: 4,
+    name: "Sagnik",
+    category: "organizer",
+    role: "Co-Lead Organizer",
+    linkedin: "https://www.linkedin.com/in/sagnik-bhattacharya-81349a247/",
+    twitter: "",
   },
 ];
 

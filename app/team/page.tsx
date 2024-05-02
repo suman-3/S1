@@ -3,14 +3,14 @@
 import TeamCard from "@/components/Card/TeamCard";
 import MaxWidthWrapper from "@/components/Wrapper/MaxWidthWrapper";
 import {
-  organizerTeam,
+  LeadOrganizerTeam,
   leadTeam,
   coreTeam,
   coordinatorTeam,
 } from "@/data/team";
 
-const teamData = [organizerTeam, leadTeam, coreTeam, coordinatorTeam];
-const teamCategories = ["Organizers", "Leads", "Core", "Coordinators"];
+const teamData = [LeadOrganizerTeam, leadTeam, coreTeam, coordinatorTeam];
+const teamCategories = ["Lead Organizers", "Leads", "Core", "Coordinators"];
 
 const Team = () => {
   return (
@@ -20,19 +20,16 @@ const Team = () => {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
             <h2 className="h2 mb-1">{team}</h2>
           </div>
-          <div className="container flex flex-wrap justify-center">
-            {teamData[idx].map((props, index) =>
-              index % 4 === 0 ? (
-                <div
-                  key={index / 4}
-                  className="container flex md:gap-10 max-lg:flex-wrap"
-                >
-                  {teamData[idx].slice(index, index + 4).map((props) => (
-                    <TeamCard key={props.id} {...props} />
-                  ))}
-                </div>
-              ) : null
-            )}
+
+          <div className="container flex flex-wrap gap-5 md:gap-10 justify-center">
+            {teamData[idx].map((props, index) => (
+              <div
+                key={props.id}
+                className="flex flex-wrap items-center justify-center hover:shadow-lg rounded-3xl"
+              >
+                <TeamCard key={props.id} {...props} />
+              </div>
+            ))}
           </div>
         </section>
       ))}

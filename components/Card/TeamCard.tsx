@@ -13,7 +13,7 @@ const TeamCard = ({
   return (
     <center
       key={id}
-      className="card w-96 bg-base-100 hover:shadow-xl border-[2px] rounded-xl cursor-pointer mb-10 max-md:w-80 max-md:mx-8"
+      className="card w-60 bg-base-100 hover:shadow-xl border-[2px] rounded-xl cursor-pointer max-md:w-40"
     >
       <figure className="px-5 pt-4">
         <Image

@@ -36,6 +36,7 @@ function Sponsors() {
                 <div className="max-w-3xl mx-auto text-center pb-5 md:py-5">
                   <h2 className="font-bold h4 text-blue-900">{partner}</h2>
                 </div>
+
                 <div className="container flex flex-wrap gap-5 md:gap-10 justify-center">
                   {partnerData[idx].map((props, index) => (
                     <div
@@ -52,6 +53,7 @@ function Sponsors() {
                     </div>
                   ))}
                 </div>
+                
               </section>
             ))}
           </div>
