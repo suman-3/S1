@@ -5,19 +5,32 @@ import Image from "next/image";
 const TeamCard = ({
   id,
   name,
+  img_name,
   category,
   role,
   linkedin,
   twitter,
+  position,
+  org,
 }: organizer_type) => {
   return (
     <center
       key={id}
-      className="card w-60 bg-base-100 hover:shadow-xl border-[2px] rounded-xl cursor-pointer max-md:w-40"
+      className="card w-60 bg-base-100 hover:shadow-xl border-[2px] rounded-xl cursor-pointer max-md:w-40 relative overflow-hidden"
     >
+      {id === 1 && (
+        <div className="absolute top-0 right-0 transform translate-x-7 translate-y-3 bg-blue-700 text-white px-10 py-1 rounded-bl-lg font-bold text-xs rotate-45">
+          Lead
+        </div>
+      )}
+      {id !== 1 && category === "organizer" && role === "Co-Lead Organizer" && (
+        <div className="absolute top-0 right-0 transform translate-x-10 translate-y-3 bg-green-700 text-white px-10 py-1 rounded-bl-lg font-bold text-xs rotate-45">
+          Co-Lead
+        </div>
+      )}
       <figure className="px-5 pt-4">
         <Image
-          src={`/images/team/${category}/${name}.jpeg`}
+          src={`/images/team/${category}/${img_name}.jpeg`}
           alt={`${category} image`}
           height={1000}
           width={1000}
@@ -27,7 +40,17 @@ const TeamCard = ({
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title font-bold pt-4">{name}</h2>
-        <p className="pb-4">{role}</p>
+        {position.length && org.length ? (
+          <>
+          <p className="pb-0 text-sm text-slate-500">{position}</p>
+          <p className="pb-2 text-slate-600">{"@" + org}</p>
+          </>
+        ) : (
+          <>
+          <p className="pb-0 text-sm text-slate-500">{role}</p>
+          <p className="pb-2 text-slate-600">{"@InnoFusion"}</p>
+          </>
+        )}
       </div>
       <center className="flex justify-center">
         <ul className="flex mb-4 md:order-1 py-0 gap-4">
@@ -35,8 +58,9 @@ const TeamCard = ({
             <a
               href={linkedin}
               target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
-              aria-label="Facebook"
+              aria-label="LinkedIn"
             >
               <Linkedin />
             </a>
@@ -45,6 +69,7 @@ const TeamCard = ({
             <a
               href={twitter}
               target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
               aria-label="Twitter"
             >
