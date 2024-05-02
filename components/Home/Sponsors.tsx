@@ -47,7 +47,7 @@ function Sponsors() {
                         width={1050}
                         height={700}
                         src={`/images/sponsors/${props.name}.png`}
-                        alt={props.name}
+                        alt={props.alt_text}
                         className="w-[150px] h-[100px] object-contain cursor-pointer hover:rounded-2xl"
                       />
                     </div>
