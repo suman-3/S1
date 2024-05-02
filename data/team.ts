@@ -18,8 +18,8 @@ export const organizerTeam = [
     role: "Co-Lead Organizer",
     linkedin: "https://www.linkedin.com/in/coderpalash",
     twitter: "https://www.x.com/coderpalash",
-    position: "",
-    org: "",
+    position: "Founder",
+    org: "Techtonic Community",
   },
   {
     id: 3,
