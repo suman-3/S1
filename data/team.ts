@@ -19,7 +19,7 @@ export const organizerTeam = [
     linkedin: "https://www.linkedin.com/in/coderpalash",
     twitter: "https://www.x.com/coderpalash",
     position: "Founder",
-    org: "Techtonic Community",
+    org: "Techtonic",
   },
   {
     id: 3,
