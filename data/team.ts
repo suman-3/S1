@@ -385,7 +385,7 @@ export const coordinatorTeam = [
     name: "Snehal",
     img_name: "Snehal",
     category: "coordinator",
-    role: "Coordinator",
+    role: "Lead Coordinator",
     linkedin: "https://www.linkedin.com/in/snehal-sharma-774769275",
     twitter: "/",
     position: "",

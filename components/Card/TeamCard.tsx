@@ -43,12 +43,12 @@ const TeamCard = ({
         {position.length && org.length ? (
           <>
           <p className="pb-0 text-sm text-slate-500">{position}</p>
-          <p className="pb-2 text-slate-600">{"@" + org}</p>
+          <p className="pb-2 text-sm text-slate-600">{"@" + org}</p>
           </>
         ) : (
           <>
           <p className="pb-0 text-sm text-slate-500">{role}</p>
-          <p className="pb-2 text-slate-600">{"@InnoFusion"}</p>
+          <p className="pb-2 text-sm text-slate-600">{"@InnoFusion"}</p>
           </>
         )}
       </div>
