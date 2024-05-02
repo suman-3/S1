@@ -78,6 +78,20 @@ export const organizerTeam = [
   },
 ];
 
+export const advisorTeam = [
+  {
+    id: 1,
+    name: "Raihan",
+    img_name: "Raihan",
+    category: "advisor",
+    role: "Advisor",
+    linkedin: "/",
+    twitter: "/",
+    position: "AI Developer",
+    org: "esynergy",
+  },
+];
+
 export const techTeam = [
   {
     id: 1,

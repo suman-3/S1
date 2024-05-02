@@ -18,7 +18,7 @@ const TeamCard = ({
       key={id}
       className="card w-60 bg-base-100 hover:shadow-xl border-[2px] rounded-xl cursor-pointer max-md:w-40 relative overflow-hidden"
     >
-      {id === 1 && (
+      {id === 1 && category !== "advisor" && (
         <div className="absolute top-0 right-0 transform translate-x-7 translate-y-3 bg-blue-700 text-white px-10 py-1 rounded-bl-lg font-bold text-xs rotate-45">
           Lead
         </div>

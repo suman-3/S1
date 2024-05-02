@@ -4,6 +4,7 @@ import TeamCard from "@/components/Card/TeamCard";
 import MaxWidthWrapper from "@/components/Wrapper/MaxWidthWrapper";
 import {
   organizerTeam,
+  advisorTeam,
   devTeam,
   techTeam,
   brandingTeam,
@@ -15,8 +16,8 @@ import {
   coordinatorTeam,
 } from "@/data/team";
 
-const teamData = [organizerTeam, devTeam, techTeam, brandingTeam, designTeam, documentationTeam, contentTeam, financeTeam, coordinatorTeam, socialMediaTeam];
-const teamCategories = ["Organizers", "Dev Dynamos", "Tech Wizards", "Branding & PR", "Design Squad", "Documentation Squad", "Pen Pioneers", "Finance", "Coordinators", "Social Media"];
+const teamData = [organizerTeam, advisorTeam, devTeam, techTeam, brandingTeam, designTeam, documentationTeam, contentTeam, financeTeam, coordinatorTeam, socialMediaTeam];
+const teamCategories = ["Organizers", "Advisors", "Dev Dynamos", "Tech Wizards", "Branding & PR", "Design Squad", "Documentation Squad", "Pen Pioneers", "Finance", "Coordinators", "Social Media"];
 
 const Team = () => {
   return (
