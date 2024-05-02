@@ -31,7 +31,7 @@ const TeamCard = ({
       <figure className="px-5 pt-4">
         <Image
           src={`/images/team/${category}/${img_name}.jpeg`}
-          alt={`${category} image`}
+          alt={`${name}`}
           height={1000}
           width={1000}
           className="rounded-xl object-cover"

@@ -295,7 +295,7 @@ export const brandingTeam =[
   {
     id: 1,
     name: "Rajdeep",
-    img_name: "Rajdeep-1",
+    img_name: "Rajdeep",
     category: "branding",
     role: "Branding & PR Lead",
     linkedin: "https://www.linkedin.com/in/rajdeepde",
