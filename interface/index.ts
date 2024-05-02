@@ -18,6 +18,8 @@ export interface organizer_type {
   role: string;
   linkedin: string;
   twitter: string;
+  position: string;
+  org: string;
 }
 
 export interface tracks_type {
