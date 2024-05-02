@@ -13,6 +13,7 @@ export interface navContents_type {
 export interface organizer_type {
   id: number;
   name: string;
+  img_name: string;
   category: string;
   role: string;
   linkedin: string;
