@@ -2,52 +2,48 @@ const faq = [
   {
     key: 1,
     question: "Who can participate?",
-    answer:
-      "Students from any institution of IEM & UEM. If you can innovate or just want to have a fun learning weekend, you are most welcome.",
+    answer: "Students from any college / university can participate.",
   },
   {
     key: 2,
     question: "What is the participation fee?",
-    answer: "Innofusion Hackathon is absolutely to register.",
+    answer: "Innofusion Hackathon is absolutely free to register.",
   },
   {
     key: 3,
-    question: "Can i participate solo?",
-    answer: `We always say "Team work is the dream work". But if you want to participate solo, then also you can.`,
+    question: "What is the maximum/minimum team size?",
+    answer: "The team size can range from 1 to 4 participants.",
   },
   {
     key: 4,
-    question: "Can i participate remotely?",
-    answer:
-      "No. Innofusion Hackathon is ofline mode hackathon, where you have to present in the value.",
+    question: "Can I participate solo?",
+    answer: "We believe in the power of teamwork, but if you prefer to participate solo, you're welcome to do so.",
   },
   {
     key: 5,
-    question:
-      "Where I have to come for the innofusion hackathon participation?",
-    answer: "UEM Kolkata campus. AA3C Rajarhat, New Town-160",
+    question: "Can I participate remotely?",
+    answer: "The idea submission round is conducted online, allowing remote participation. However, please note that the finale round is held offline.",
   },
   {
     key: 6,
-    question: "Does we have to bring our own food?",
-    answer: "If you want then you can but we'll be providing food beverages.",
+    question: "Where do I have to go for the finale?",
+    answer: "The finale will be held at University Of Engineering and Management, University Area, Action Area III, New Town, Kolkata - 700160.",
   },
   {
     key: 7,
-    question: "What is the max/min team size?",
-    answer:
-      "The team size will be 1-4 but we'll encourage you to participate in a team.",
+    question: "Do we have to bring our own food?",
+    answer: "If you prefer to, you can bring your own food, but we'll also be providing food and beverages.",
   },
+  
   {
     key: 8,
-    question: "Do we have to bring our project, hardware component?",
-    answer:
-      "We'll provide some component, will be releasing that list. And not mentioned component should have to brought by participants.",
+    question: "Are we allowed to leave before the completion of the hackathon?",
+    answer: "As the hackathon spans 30 hours, participants are not permitted to leave once it begins. Even in the case of a medical emergency, leaving will result in disqualification from the hackathon.",
   },
   {
     key: 9,
-    question: "If we have more question, where should we reach out?",
-    answer: "will be releasing a discord server soon.",
+    question: "If we have more queries, where should we reach out?",
+    answer: "You may reach out to our Discord server for any further queries.",
   },
 ];
 
