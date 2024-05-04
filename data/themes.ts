@@ -11,7 +11,6 @@ const CATEGORIES = [
     icon: CheckBadgeIcon,
     title: "Cyber Security",
   },
- 
   {
     img: "/images/themes/webdev.jpeg",
     icon: CheckBadgeIcon,
@@ -37,7 +36,6 @@ const CATEGORIES = [
     icon: CheckBadgeIcon,
     title: "Cloud & Infrastructure",
   },
-  
   {
     img: "/images/themes/blockchain.jpeg",
     icon: CheckBadgeIcon,
