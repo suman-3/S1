@@ -64,8 +64,7 @@ export default function Footer() {
             </li>
           </ul>
           <div className="text-sm text-gray-600">
-            &copy; University of Engineering and Management, Kolkata.
-            All rights reserved.
+            &copy; University of Engineering and Management, Kolkata
           </div>
         </div>
       </center>
