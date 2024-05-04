@@ -13,17 +13,17 @@ export function Themes() {
         </div>
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           <div className="col-span-1 flex flex-col gap-6">
-            {CATEGORIES.slice(0, 2).map((props, key) => (
+            {CATEGORIES.slice(0, 3).map((props, key) => (
               <CategoryCard key={key} {...props} />
             ))}
           </div>
           <div className="col-span-1 flex flex-col gap-6">
-            {CATEGORIES.slice(3, 5).map((props, key) => (
+            {CATEGORIES.slice(3, 6).map((props, key) => (
               <CategoryCard key={key} {...props} />
             ))}
           </div>
           <div className="col-span-1 flex flex-col gap-6">
-            {CATEGORIES.slice(6, 8).map((props, key) => (
+            {CATEGORIES.slice(6, 9).map((props, key) => (
               <CategoryCard key={key} {...props} />
             ))}
           </div>
