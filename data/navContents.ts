@@ -11,8 +11,8 @@ const navContents = [
   },
   {
     key: 3,
-    label: "Tracks",
-    path: "/#Tracks",
+    label: "Themes",
+    path: "/#Themes",
   },
   {
     key: 4,

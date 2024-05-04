@@ -6,14 +6,14 @@ import Newsletter from "@/components/Home/newsletter";
 import AboutUs from "@/components/Home/AboutUs";
 import Timeline from "@/components/Home/Timeline";
 import Collaboration from "@/components/Home/Collaboration";
-import Tracks from "@/components/Home/Tracks";
+import Themes from "@/components/Home/Themes";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <AboutUs />
-      <Tracks />
+      <Themes />
       <Timeline />
       <Partners />
       <Collaboration />
