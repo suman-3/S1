@@ -13,8 +13,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="shrink-0 mr-4">
-            <Link href="/" className="font-bold md:text-3xl text-2xl">
+            <Link href="/" className="flex gap-2 items-center font-bold md:text-3xl text-2xl">
               <Image src="/images/logo.png" height={50} width={50} alt="IF Logo"/>
+              <h1 className="font-extrabold">InnoFusion</h1>
             </Link>
           </div>
           <nav className="max-lg:hidden">
