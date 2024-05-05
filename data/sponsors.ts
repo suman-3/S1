@@ -30,6 +30,11 @@ export const silverPartners = [
     name: "ethindia",
     alt_text: "ETHINDIA LOGO",
   },
+  {
+    id: 3,
+    name: "skywatching-workshop",
+    alt_text: "SKYWATCHING WORKSHOP LOGO",
+  },
 ];
 
 export const communityPartners = [
@@ -67,5 +72,10 @@ export const communityPartners = [
     id: 7,
     name: "ieee",
     alt_text: "IEEE LOGO",
+  },
+  {
+    id: 8,
+    name: "diversion",
+    alt_text: "DIVERSION LOGO",
   },
 ];

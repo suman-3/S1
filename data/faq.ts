@@ -37,8 +37,8 @@ const faq = [
   
   {
     key: 8,
-    question: "Are we allowed to leave the campus before completion of the hackathon?",
-    answer: "During the 30-hour hackathon, participants are required to remain on campus until their work is submitted. However, if you have completed your submission, you may leave, but we request that you return in time for the result declaration. It's important to note that participants who leave before submitting their work, even for medical emergencies, will be disqualified from the hackathon. However, participants may go outside the campus at their own risk during designated intermediate breaks.",
+    question: "Can we leave the campus before completion of the hackathon?",
+    answer: "Stay on campus until you submit your work. Leaving before submitting will cause disqualification. Once done, you can leave but come back for results. Outdoor breaks are allowed only during designated times, but at your own risk.",
   },
   {
     key: 9,
