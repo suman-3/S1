@@ -1,6 +1,6 @@
 const timelineContent = [
   {
-    title: "Announcing Winners",
+    title: "Annoucement of InnoFusion 1.0 Hackathon",
     company_name: "InnoFusion",
     icon: "/images/logo.png",
     iconBg: "#E6DEDD",
