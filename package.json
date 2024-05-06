@@ -24,7 +24,6 @@
     "react-dom": "18.2.0",
     "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.76.0",
-    "scss": "^0.2.4",
     "tailwind-merge": "^2.2.2",
     "typescript": "^5.4.5"
   },
