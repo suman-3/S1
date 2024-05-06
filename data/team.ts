@@ -162,6 +162,17 @@ export const devTeam = [
     position: "",
     org: "",
   },
+  {
+    id: 2,
+    name: "Suman",
+    img_name: "Suman",
+    category: "dev",
+    role: "Developer",
+    linkedin: "https://www.linkedin.com/in/mon03/",
+    twitter: "https://twitter.com/SumanMonda97518",
+    position: "",
+    org: "",
+  },
 ];
 
 export const designTeam = [
