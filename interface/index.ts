@@ -27,3 +27,13 @@ export interface tracks_type {
   title: string;
   icon: React.ElementType;
 }
+
+export interface timeline_type {
+title: string;
+company_name: string;
+icon: string;
+iconBg: string;
+date: string;
+points: string[];
+
+}
