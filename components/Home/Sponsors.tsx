@@ -54,7 +54,6 @@ function Sponsors() {
                     </div>
                   ))}
                 </div>
-                
               </section>
             ))}
           </div>
