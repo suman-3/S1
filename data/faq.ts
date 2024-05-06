@@ -12,7 +12,7 @@ const faq = [
   {
     key: 3,
     question: "What is the maximum/minimum team size?",
-    answer: "The team size can range from 1 to 4 participants.",
+    answer: "The team size can range from 1 to 4 participants. Please note that cross institutional team is not allowed.",
   },
   {
     key: 4,
