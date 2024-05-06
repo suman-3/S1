@@ -13,11 +13,11 @@ export default function About() {
     if (tabs.current && tabs.current.parentElement)
       tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`;
   };
-
+  
   useEffect(() => {
     heightFix();
   }, []);
-
+  
   return (
     <section className="relative my-10">
       <div
