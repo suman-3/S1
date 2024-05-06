@@ -143,7 +143,7 @@ export const devTeam = [
   {
     id: 1,
     name: "Atmajo",
-    img_name: "Atmajo",
+    img_name: "Atmajo2",
     category: "dev",
     role: "Lead Developer",
     linkedin: "https://linkedin.com/in/atmajochowdhury",
