@@ -15,6 +15,7 @@ const partnerData = [
   silverPartners,
   communityPartners,
 ];
+
 const partnerCategories = [
   "Platinum Partners",
   "Gold Partners",
