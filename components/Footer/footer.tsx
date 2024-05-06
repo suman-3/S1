@@ -34,7 +34,7 @@ export default function Footer() {
             </li>
             <li className="ml-4">
               <a
-                href="/"
+                href="https://www.x.com/company/InnoFusionIndia"
                 target="_blank"
                 className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Twitter"
@@ -54,7 +54,7 @@ export default function Footer() {
             </li>
             <li className="ml-4">
               <a
-                href="https://github.com/InnoFusionIndia"
+                href="https://github.com/InnoFusionHackathon"
                 target="_blank"
                 className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Github"
