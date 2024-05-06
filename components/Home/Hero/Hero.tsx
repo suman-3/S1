@@ -54,7 +54,7 @@ export default function Hero() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Kolkata's Premiere <br /> Software + Hardware <br />
+              Kolkata's Premier <br /> Software + Hardware <br />
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-red-400">
                 Hackathon
               </span>
