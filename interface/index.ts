@@ -28,6 +28,14 @@ export interface tracks_type {
   icon: React.ElementType;
 }
 
+export interface prizepool_type {
+  img: string;
+  position: string;
+  description: string;
+  price: string;
+  color: string;
+}
+
 export interface timeline_type {
 title: string;
 company_name: string;

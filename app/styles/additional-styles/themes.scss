@@ -1,7 +1,7 @@
 .body {
   --background-color: #18181b;
   --text-color: #a1a1aa;
-
+  
   --card-background-color: rgba(255, 255, 255, 0.015);
   --card-border-color: rgba(255, 255, 255, 0.1);
   --card-box-shadow-1: rgba(0, 0, 0, 0.05);
@@ -18,13 +18,13 @@
   --card-shine-gradient: conic-gradient(
     from 205deg at 50% 50%,
     rgba(16, 185, 129, 0) 0deg,
-    #10b981 25deg,
+    #166e51 25deg,
     rgba(52, 211, 153, 0.18) 295deg,
     rgba(16, 185, 129, 0) 360deg
   );
-  --card-line-color: #2a2b2c;
+  --card-line-color: #fff;
   --card-tile-color: rgba(16, 185, 129, 0.05);
-
+  
   --card-hover-border-color: rgba(255, 255, 255, 0.2);
   --card-hover-box-shadow-1: rgba(0, 0, 0, 0.04);
   --card-hover-box-shadow-1-y: 5px;
@@ -32,10 +32,10 @@
   --card-hover-box-shadow-2: rgba(0, 0, 0, 0.3);
   --card-hover-box-shadow-2-y: 15px;
   --card-hover-box-shadow-2-blur: 25px;
-  --card-hover-icon-color: #34d399;
+  --card-hover-icon-color: #0f8d5f;
   --card-hover-icon-background-color: rgba(52, 211, 153, 0.1);
   --card-hover-icon-border-color: rgba(52, 211, 153, 0.2);
-
+  
   --blur-opacity: 0.01;
 
   &.toggle * {
@@ -44,7 +44,6 @@
 }
 
 .card {
-  background-color: var(--background-color);
   box-shadow: 0px var(--card-box-shadow-1-y) var(--card-box-shadow-1-blur)
       var(--card-box-shadow-1),
     0px var(--card-box-shadow-2-y) var(--card-box-shadow-2-blur)
