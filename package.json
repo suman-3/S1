@@ -11,8 +11,6 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.19",
     "@heroicons/react": "^2.1.3",
     "@types/node": "^20.12.8",
@@ -26,16 +24,12 @@
     "react-dom": "18.2.0",
     "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.76.0",
-    "scss": "^0.2.4",
-    "react-vertical-timeline-component": "^3.6.0",
-    "sass": "^1.76.0",
     "tailwind-merge": "^2.2.2",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@types/aos": "^3.0.7",
-    "@types/react-vertical-timeline-component": "^3.3.6",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
