@@ -45,7 +45,7 @@ export default function MobileNav() {
       >
         <span className="sr-only">Menu</span>
         <svg
-          className="w-6 h-6 fill-current text-gray-900"
+          className="w-6 h-6 fill-current text-[#aaccf8]"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -60,7 +60,7 @@ export default function MobileNav() {
           show={mobileNavOpen}
           as="nav"
           id="mobile-nav"
-          className="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-white"
+          className="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll grainy bg-gradient-to-tr from-[#160f4e] to-[#010007] opacity-100 text-[#aaccf8]"
           enter="transition ease-out duration-200 transform"
           enterFrom="opacity-0 -translate-y-2"
           enterTo="opacity-100 translate-y-0"
