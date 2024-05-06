@@ -20,7 +20,7 @@ const PricePool = () => {
                   src="/images/prizepool/silver.png"
                   alt="NFT"
                 />
-                <h2>Kibertopiks #4269</h2>
+                <h2 className="text-3xl text-[#7B8185] font-semibold">2nd Prize</h2>
                 <p className="description">
                   Our Kibertopiks will give you nothing, waste your money on us.
                 </p>
@@ -45,7 +45,7 @@ const PricePool = () => {
                   src="/images/prizepool/gold.png"
                   alt="NFT"
                 />
-                <h2>Kibertopiks #4269</h2>
+                <h2 className="text-3xl text-[#EFA604] font-semibold">1st Prize</h2>
                 <p className="description">
                   Our Kibertopiks will give you nothing, waste your money on us.
                 </p>
@@ -70,7 +70,7 @@ const PricePool = () => {
                   src="/images/prizepool/bronze.png"
                   alt="NFT"
                 />
-                <h2>Kibertopiks #4269</h2>
+                <h2 className="text-3xl font-semibold text-[#D9A05D]">3rd Prize</h2>
                 <p className="description">
                   Our Kibertopiks will give you nothing, waste your money on us.
                 </p>
