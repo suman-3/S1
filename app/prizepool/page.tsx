@@ -2,7 +2,7 @@
 
 import MaxWidthWrapper from "@/components/Wrapper/MaxWidthWrapper";
 import React from "react";
-import "../css/additional-styles/prizepool.scss";
+import "../styles/additional-styles/prizepool.scss";
 
 const PricePool = () => {
   return (
