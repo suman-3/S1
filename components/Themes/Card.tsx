@@ -1,5 +1,5 @@
 import React from "react";
-import "../../app/css/additional-styles/themes.scss";
+import "../../app/styles/additional-styles/themes.scss";
 import { tracks_type } from "@/interface";
 
 const Card = ({
