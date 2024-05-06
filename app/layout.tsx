@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.variable} font-inter antialiased text-gray-900 tracking-tight select-none`}
+        className={`${inter.variable} font-inter antialiased text-[#aaccf8] tracking-tight select-none grainy bg-gradient-to-tr from-[#160f4e] to-[#010007] opacity-100`}
       >
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />

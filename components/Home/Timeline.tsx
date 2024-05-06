@@ -44,7 +44,7 @@ const ExperienceCard = ({ experience }: { experience: any }) => {
           <li key={index} className="text-[14px] pl-1 tracking-wider">
             {point === "link" ? (
               <a
-                href="https://discord.gg/bXM2Y2scyh"
+                href="https://discord.gg/wRRqeN23a5"
                 className="underline"
                 target="_blank"
               >
