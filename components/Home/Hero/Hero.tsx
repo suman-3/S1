@@ -2,6 +2,7 @@
 
 import ModalVideo from "@/components/utils/modal-video";
 import VideoThumb from "@/public/images/hero-image.png";
+import Link from "next/link";
 import { useEffect } from "react";
 
 export default function Hero() {
@@ -59,7 +60,7 @@ export default function Hero() {
                 Hackathon
               </span>
             </h1>
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-4xl mx-auto">
               <p
                 className="text-xl text-gray-600 mb-8"
                 data-aos="zoom-y-out"
@@ -80,6 +81,16 @@ export default function Hero() {
                   data-hackathon-slug="innofusionhackathon"
                   data-button-theme="light"
                 ></div>
+              </div>
+              <div>
+                <Link href="https://discord.gg/wRRqeN23a5" target="_blank">
+                  <button
+                    className="bg-blue-600 py-2 px-4 rounded-md text-white mt-4 hover:bg-blue-800"
+                    rel="noopener noreferrer"
+                  >
+                    Join Discord!
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
