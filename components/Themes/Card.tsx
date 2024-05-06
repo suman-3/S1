@@ -2,11 +2,7 @@ import React from "react";
 import "../../app/styles/additional-styles/themes.scss";
 import { tracks_type } from "@/interface";
 
-const Card = ({
-  img,
-  icon: Icon,
-  title,
-}: tracks_type) => {
+const Card = ({ img, icon: Icon, title }: tracks_type) => {
   return (
     <div className="body">
       <div className="card">
@@ -14,7 +10,6 @@ const Card = ({
           <Icon />
         </span>
         <h4>{title}</h4>
-        <p>Artificial Intelligence</p>
         <div className="shine"></div>
         <div className="background">
           <div className="tiles">
