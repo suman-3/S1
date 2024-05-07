@@ -1,5 +1,5 @@
 import React from "react";
-import "../../app/styles/additional-styles/themes.scss";
+import "./themes.scss";
 import { tracks_type } from "@/interface";
 import Image from "next/image";
 

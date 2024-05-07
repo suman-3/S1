@@ -1,5 +1,5 @@
 import React from "react";
-import "../../app/styles/additional-styles/tracks.css";
+import "./tracks.css";
 import { tracks_type } from "@/interface";
 
 const TracksContainer = ({
