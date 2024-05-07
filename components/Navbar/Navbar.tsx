@@ -32,7 +32,7 @@ export default function Navbar() {
                 <li key={data.key}>
                   <Link
                     href={data.path}
-                    className="font-medium text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                    className="font-medium text-gray-400 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
                     {data.label}
                   </Link>

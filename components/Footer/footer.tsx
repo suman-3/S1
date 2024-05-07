@@ -16,7 +16,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/InnoFusionIndia"
                 target="_blank"
-                className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="text-gray-400 hover:text-white bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Facebook"
               >
                 <Facebook />
@@ -26,7 +26,7 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/InnoFusionIndia/"
                 target="_blank"
-                className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="text-gray-400 hover:text-white bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Instagram"
               >
                 <Instagram />
@@ -36,7 +36,7 @@ export default function Footer() {
               <a
                 href="/"
                 target="_blank"
-                className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="text-gray-400 hover:text-white bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Twitter"
               >
                 <Twitter />
@@ -46,7 +46,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/company/InnoFusionIndia"
                 target="_blank"
-                className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="text-gray-400 hover:text-white bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Linkedin"
               >
                 <Linkedin />
@@ -56,14 +56,14 @@ export default function Footer() {
               <a
                 href="https://github.com/InnoFusionIndia"
                 target="_blank"
-                className="text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="text-gray-400 hover:text-white bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Github"
               >
                 <Github />
               </a>
             </li>
           </ul>
-          <div className="text-sm text-gray-600">
+          <div className="text-sm text-gray-400">
             &copy; University of Engineering and Management, Kolkata
           </div>
         </div>
