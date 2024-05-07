@@ -11,7 +11,7 @@ const Timeline = () => {
         <div className="mb-10 grid place-items-center text-center">
           <h1 className="h3 font-bold mt-5 mb-10">Tracks</h1>
         </div>
-        <div className="container w-full flex flex-col items-center justify-center">
+        <div className="w-full flex flex-col items-center justify-center">
           {timelineContent.map((track, index) => (
             <TimeLineCard
               key={index}

@@ -46,7 +46,7 @@
   height: 1em;
   margin-left: 2px;
   border-bottom: 10px solid #00D003;
-  animation: blink-underscore 0.85s steps(1) infinite;
+  animation: blink-underscore 1s steps(1) infinite;
 }
 
 @keyframes blink-underscore {

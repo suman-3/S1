@@ -16,8 +16,32 @@ import {
   coordinatorTeam,
 } from "@/data/team";
 
-const teamData = [organizerTeam, advisorTeam, devTeam, techTeam, brandingTeam, designTeam, documentationTeam, contentTeam, financeTeam, coordinatorTeam, socialMediaTeam];
-const teamCategories = ["Organizers", "Advisors", "Dev Dynamos", "Tech Wizards", "Branding & PR", "Design Squad", "Documentation Squad", "Pen Pioneers", "Finance", "Coordinators", "Social Media"];
+const teamData = [
+  organizerTeam,
+  advisorTeam,
+  devTeam,
+  techTeam,
+  brandingTeam,
+  designTeam,
+  documentationTeam,
+  contentTeam,
+  financeTeam,
+  coordinatorTeam,
+  socialMediaTeam,
+];
+const teamCategories = [
+  "Organizers",
+  "Advisors",
+  "Dev Dynamos",
+  "Tech Wizards",
+  "Branding & PR",
+  "Design Squad",
+  "Documentation Squad",
+  "Pen Pioneers",
+  "Finance",
+  "Coordinators",
+  "Social Media",
+];
 
 const Team = () => {
   return (

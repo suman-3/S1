@@ -1,0 +1,14 @@
+.countdown {
+  --oldValue: 0;
+  --value: 0;
+  animation: countdown 1s steps(100) infinite;
+}
+
+@keyframes countdown {
+  0% {
+    --oldValue: var(--value);
+  }
+  100% {
+    --value: var(--oldValue);
+  }
+}
