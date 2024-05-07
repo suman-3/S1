@@ -5,6 +5,7 @@ import MaxWidthWrapper from "@/components/Wrapper/MaxWidthWrapper";
 import { prizepoolContent } from "@/data/prizepoolContent";
 import React from "react";
 import "../styles/additional-styles/prizepool.scss";
+import Tracks from "@/components/Tracks/Tracks";
 
 const PricePool = () => {
   return (
@@ -14,14 +15,17 @@ const PricePool = () => {
           <h2 className="h2 mb-1">Prize Pool</h2>
         </div>
         <div>
-          <h4 className="h4 mb-1">Ultimate Prize</h4>
-          <div className="flex lg:flex-row flex-col justify-between items-center lg:gap-10">
-            {prizepoolContent.map((props, index) => (
-              <PrizepoolCard key={index} {...props} />
-            ))}
-          </div>
+          <fieldset style={{ border: "1px solid #fff", borderRadius: "15px" }} className="p-5 px-10 rounded-lg">
+            <legend className="h2 px-2">Ultimate Prizes</legend>
+            <div className="flex lg:flex-row flex-col justify-between items-center lg:gap-10">
+              {prizepoolContent.map((props, index) => (
+                <PrizepoolCard key={index} {...props} />
+              ))}
+            </div>
+          </fieldset>
         </div>
       </section>
+      <Tracks />
     </MaxWidthWrapper>
   );
 };
