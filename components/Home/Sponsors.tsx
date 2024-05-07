@@ -27,7 +27,7 @@ function Sponsors() {
   return (
     <MaxWidthWrapper>
       <section className="pt-8 px-8 lg:py-10" id="Sponsors">
-        <div className="container mx-auto grid items-center place-items-center">
+        <div className="mx-auto grid items-center place-items-center">
           <div className="text-center">
             <h6 className="mb-4 uppercase !text-gray-500 font-semibold mt-20">
               our Partners
@@ -38,7 +38,7 @@ function Sponsors() {
                   <h2 className="font-bold h4 text-blue-900">{partner}</h2>
                 </div>
 
-                <div className="container flex flex-wrap gap-5 md:gap-10 justify-center">
+                <div className="flex flex-wrap gap-5 md:gap-10 justify-center">
                   {partnerData[idx].map((props, index) => (
                     <div
                       key={props.id}

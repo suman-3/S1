@@ -8,12 +8,12 @@ const Collaboration = () => {
   return (
     <MaxWidthWrapper>
       <section className="px-8 lg:pt-2 pb-20" id="Sponsors">
-        <div className="container mx-auto grid items-center place-items-center">
+        <div className=" mx-auto grid items-center place-items-center">
           <div className="text-center">
             <h6 className="mb-10 uppercase !text-gray-500 font-semibold mt-20">
               Organisers
             </h6>
-            <div className="container flex flex-wrap gap-5 md:gap-10 justify-center">
+            <div className="flex flex-wrap gap-5 md:gap-10 justify-center">
               {partnerData.map((props, index) => (
                 <div
                   key={index}
