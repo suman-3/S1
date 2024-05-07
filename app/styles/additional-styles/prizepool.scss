@@ -7,6 +7,7 @@
   -moz-osx-font-smoothing: grayscale;
   color: #eee;
   user-select: none;
+  width: 350px;
 }
 
 code {
@@ -17,7 +18,7 @@ code {
 .nft {
   user-select: none;
   max-width: 300px;
-  margin: 5rem auto;
+  margin-top: 3rem;
   border: 1px solid #ffffff22;
   background-color: #282c34;
   background: linear-gradient(
@@ -48,7 +49,7 @@ code {
     padding: 1rem;
     .tokenImage {
       border-radius: 0.5rem;
-      max-width: 80%;
+      width: 80%;
       height: 250px;
       object-fit: cover;
     }

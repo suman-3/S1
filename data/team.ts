@@ -221,17 +221,6 @@ export const designTeam = [
     org: "",
   },
   {
-    id: 4,
-    name: "Jaydeep",
-    img_name: "Jaydeep",
-    category: "design",
-    role: "Designer",
-    linkedin: "https://www.linkedin.com/in/jaydeep-mondal-5bbb58217",
-    twitter: "/",
-    position: "",
-    org: "",
-  },
-  {
     id: 5,
     name: "Mayuk",
     img_name: "Mayuk",

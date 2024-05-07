@@ -8,7 +8,7 @@ import Card from "@/components/Themes/Card";
 export function Themes() {
   return (
     <MaxWidthWrapper>
-      <section className="container mx-auto px-8 pt-20" id="Themes">
+      <section className="container mx-auto pt-20" id="Themes">
         <div className="mb-10 grid place-items-center text-center">
           <h1 className="h3 font-bold mt-5 mb-10">Themes</h1>
         </div>

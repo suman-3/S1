@@ -1,0 +1,56 @@
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient-text {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #a06ff0, #f05cd0);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.software-text {
+  background: linear-gradient(-45deg, #7567f7, #7a8bec, #3cebdc, #36eba5);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-animation 10s ease infinite;
+}
+
+.blinking-underscore {
+  display: inline-block;
+  width: 40px;
+  height: 1em;
+  margin-left: 2px;
+  border-bottom: 10px solid #00D003;
+  animation: blink-underscore 0.85s steps(1) infinite;
+}
+
+@keyframes blink-underscore {
+  50% {
+    border-color: transparent;
+  }
+}

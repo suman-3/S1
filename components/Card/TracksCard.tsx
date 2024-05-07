@@ -22,3 +22,4 @@ function CategoryCard({ img, title, icon: Icon }: tracks_type) {
   );
 }
 export default CategoryCard;
+

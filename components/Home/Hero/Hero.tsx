@@ -3,6 +3,7 @@
 import ModalVideo from "@/components/utils/modal-video";
 import VideoThumb from "@/public/images/hero-image.png";
 import Link from "next/link";
+import "../../../app/styles/additional-styles/hero-text.css"
 import { useEffect } from "react";
 
 export default function Hero() {
@@ -16,6 +17,7 @@ export default function Hero() {
       document.body.removeChild(script);
     };
   }, []);
+  //bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-red-400
   return (
     <section className="relative">
       <div
@@ -55,9 +57,9 @@ export default function Hero() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Kolkata's Premiere <br /> Software + Hardware <br />
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-red-400">
-                Hackathon
+              Kolkata's Premiere <br /> <span className="software-text">Software</span> + <span className="animated-gradient-text">Hardware</span> <br />
+              <span className="">
+                Hackathon <span className="blinking-underscore"></span>
               </span>
             </h1>
             <div className="max-w-4xl mx-auto">
