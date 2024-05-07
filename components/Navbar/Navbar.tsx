@@ -1,9 +1,9 @@
 "use client";
 
-import Link from "next/link";
-import MobileMenu from "./MobileNav";
-import navContents from "../../data/navContents";
 import Image from "next/image";
+import Link from "next/link";
+import navContents from "../../data/navContents";
+import MobileMenu from "./MobileNav";
 
 export default function Navbar() {
   return (
@@ -32,7 +32,7 @@ export default function Navbar() {
                 <li key={data.key}>
                   <Link
                     href={data.path}
-                    className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                    className="font-medium text-gray-600 hover:text-white px-5 py-3 flex items-center transition duration-150 ease-in-out"
                   >
                     {data.label}
                   </Link>

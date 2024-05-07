@@ -73,7 +73,7 @@ export default function MobileNav() {
               <li key={data.key}>
                 <Link
                   href={data.path}
-                  className="flex my-5 font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                  className="flex my-5 font-medium w-full text-gray-600 hover:text-white py-2 justify-center"
                   onClick={() => setMobileNavOpen(false)}
                 >
                   {data.label}
