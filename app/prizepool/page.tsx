@@ -4,6 +4,7 @@ import PrizepoolCard from "@/components/Card/PrizepoolCard";
 import MaxWidthWrapper from "@/components/Wrapper/MaxWidthWrapper";
 import { prizepoolContent } from "@/data/prizepoolContent";
 import React from "react";
+import "../styles/additional-styles/prizepool.scss";
 
 const PricePool = () => {
   return (

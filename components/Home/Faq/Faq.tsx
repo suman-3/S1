@@ -1,4 +1,12 @@
+"use client";
+
 import faq from "@/data/faq";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function FAQ() {
   return (
@@ -15,20 +23,19 @@ export default function FAQ() {
               FAQ's
             </h2>
             <p className="text-xl text-gray-600">
-              Answers of Frequently Asked Questions.
+              Answers to Frequently Asked Questions
             </p>
           </div>
-          <div className="max-w-sm mx-auto grid gap-5 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+          <div className="max-w-sm mx-auto grid gap-5 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
             {faq.map((data) => (
-              <div
-                key={data.key}
-                className="relative flex flex-col items-center p-5 bg-white rounded shadow-xl"
-              >
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                  {data.question}
-                </h4>
-                <p className="text-gray-600 text-center">{data.answer}</p>
-              </div>
+              <Accordion type="single" key={data.key} collapsible>
+                <AccordionItem value="item-1" className="">
+                  <AccordionTrigger className="hover:text-[17px] transition-all duration-300 hover:no-underline">
+                    {data.question}
+                  </AccordionTrigger>
+                  <AccordionContent>{data.answer}</AccordionContent>
+                </AccordionItem>
+              </Accordion>
             ))}
           </div>
         </div>
