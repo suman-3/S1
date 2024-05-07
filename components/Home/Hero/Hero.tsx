@@ -63,7 +63,7 @@ export default function Hero() {
                 data-aos="zoom-y-out"
               >
                 Kolkata's Premiere<br />
-                <span className="software-text">Software </span>+
+                <span className="software-text">Software </span>{"+"}
                 <span className="animated-gradient-text"> Hardware</span> <br />
                 <span className="">
                   Hackathon <span className="blinking-underscore"></span>
