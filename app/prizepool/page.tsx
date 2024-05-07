@@ -4,7 +4,6 @@ import PrizepoolCard from "@/components/Card/PrizepoolCard";
 import MaxWidthWrapper from "@/components/Wrapper/MaxWidthWrapper";
 import { prizepoolContent } from "@/data/prizepoolContent";
 import React from "react";
-import "../styles/additional-styles/prizepool.scss";
 import Tracks from "@/components/Tracks/Tracks";
 
 const PricePool = () => {

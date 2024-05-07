@@ -1,5 +1,5 @@
 import React from "react";
-import "../../app/styles/additional-styles/prizepool.scss";
+import "./prizepool.scss";
 import { prizepool_type } from "@/interface";
 
 const PrizepoolCard = ({position, description, price, img}: prizepool_type) => {
