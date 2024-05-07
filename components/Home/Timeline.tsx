@@ -9,7 +9,7 @@ const Timeline = () => {
     <MaxWidthWrapper>
       <section className="mt-48 pt-15 mx-auto px-10" id="Timeline">
         <div className="mb-10 grid place-items-center text-center">
-          <h1 className="h3 font-bold mt-5 mb-10">Tracks</h1>
+          <h1 className="h3 font-bold mt-5 mb-10">Timeline</h1>
         </div>
         <div className="w-full flex flex-col items-center justify-center">
           {timelineContent.map((track, index) => (
