@@ -27,6 +27,7 @@
     "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.76.0",
     "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
