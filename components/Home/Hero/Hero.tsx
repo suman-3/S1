@@ -59,12 +59,12 @@ export default function Hero() {
           <div className="pt-28 pb-12 md:pt-32 md:pb-20">
             <div className="text-center pb-12 md:pb-16">
               <h1
-                className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+                className="text-4xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
                 data-aos="zoom-y-out"
               >
-                Kolkata's Premiere <br />{" "}
-                <span className="software-text">Software</span> +{" "}
-                <span className="animated-gradient-text">Hardware</span> <br />
+                Kolkata's Premiere<br />
+                <span className="software-text">Software </span>+
+                <span className="animated-gradient-text"> Hardware</span> <br />
                 <span className="">
                   Hackathon <span className="blinking-underscore"></span>
                 </span>
