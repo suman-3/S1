@@ -165,7 +165,7 @@ export const devTeam = [
   {
     id: 3,
     name: "Suman",
-    img_name: "Suman",
+    img_name: "suman",
     category: "dev",
     role: "Developer",
     linkedin: "https://www.linkedin.com/in/mon03/",
