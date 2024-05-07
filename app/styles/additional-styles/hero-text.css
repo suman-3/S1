@@ -43,7 +43,6 @@
 .blinking-underscore {
   display: inline-block;
   width: 40px;
-  height: 1em;
   margin-left: 2px;
   border-bottom: 10px solid #00D003;
   animation: blink-underscore 1s steps(1) infinite;

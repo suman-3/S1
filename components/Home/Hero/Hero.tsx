@@ -59,7 +59,7 @@ export default function Hero() {
           <div className="pt-28 pb-12 md:pt-32 md:pb-20">
             <div className="text-center pb-12 md:pb-16">
               <h1
-                className="text-4xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+                className="text-4xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-6"
                 data-aos="zoom-y-out"
               >
                 Kolkata's Premiere<br />

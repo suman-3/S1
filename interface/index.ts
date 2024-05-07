@@ -33,7 +33,6 @@ export interface prizepool_type {
   position: string;
   description: string;
   price: string;
-  color: string;
 }
 
 export interface timeline_type {
