@@ -16,7 +16,7 @@ const TeamCard = ({
   return (
     <center
       key={id}
-      className="card w-56 bg-base-100 hover:shadow-xl border-[2px] rounded-xl cursor-pointer max-md:w-40 relative overflow-hidden bg-white bg-opacity-20 backdrop-blur-lg"
+      className="card w-56 bg-base-100 hover:shadow-xl border-[2px] rounded-xl cursor-pointer max-md:w-40 relative overflow-hidden "
     >
       {id === 1 && category !== "advisor" && (
         <div className="absolute top-0 right-0 transform translate-x-7 translate-y-3 bg-blue-700 text-white px-10 py-1 rounded-bl-lg font-bold text-xs rotate-45">
