@@ -3,15 +3,15 @@ import Image from "next/image";
 
 function CategoryCard({ img, title, icon: Icon }: tracks_type) {
   return (
-    <section className="relative grid min-h-[12rem] w-full overflow-hidden rounded-xl hover:shadow-xl">
+    <section className="relative grid min-h-[12rem] w-[350px] h-[350px] overflow-hidden rounded-xl hover:shadow-xl">
       <Image
-        width={768}
-        height={768}
+        width={200}
+        height={200}
         src={img}
         alt={title}
-        className="absolute inset-0 h-full w-full object-cover object-center"
+        className="absolute inset-0 w-[350px] h-[350px] object-cover object-center"
       />
-      <div className="absolute inset-0 h-full w-full bg-black/70" />
+      <div className="absolute inset-0 w-[350px] h-[350px] bg-black/70" />
       <div className="relative flex flex-col justify-between p-4">
         <Icon className="h-8 w-8 text-white" />
         <div>

@@ -19,7 +19,7 @@ const PricePool = () => {
             style={{ border: "1px solid #fff", borderRadius: "15px" }}
             className="p-5 px-10 rounded-lg"
           >
-            <legend className="h2 px-2">Ultimate Prizes</legend>
+            <legend className="h2 px-2">Ultimate Champions</legend>
             <div className="flex flex-wrap gap-5 md:gap-10 justify-center">
               {prizepoolContent.map((props, index) => (
                 <PrizepoolCard key={index} {...props} />
@@ -33,7 +33,7 @@ const PricePool = () => {
           style={{ border: "1px solid #fff", borderRadius: "15px" }}
           className="px-10 p-5 rounded-lg"
         >
-          <legend className="h2 px-2">Tracks</legend>
+          <legend className="h2 px-2">Track Prizes</legend>
           <Tracks />
         </fieldset>
       </div>
