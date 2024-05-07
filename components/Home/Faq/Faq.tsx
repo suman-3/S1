@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useState } from "react";
 import faq from "@/data/faq";
 import {
   Accordion,
@@ -9,6 +10,16 @@ import {
 } from "@/components/ui/accordion";
 
 export default function FAQ() {
+  const [openAccordion, setOpenAccordion] = useState(null);
+
+  const handleAccordionClick = (key: any) => {
+    if (openAccordion === key) {
+      setOpenAccordion(null);
+    } else {
+      setOpenAccordion(key);
+    }
+  };
+  
   return (
     <section className="relative">
       <div
@@ -30,10 +41,15 @@ export default function FAQ() {
             {faq.map((data) => (
               <Accordion type="single" key={data.key} collapsible>
                 <AccordionItem value="item-1" className="">
-                  <AccordionTrigger className="hover:text-[17px] transition-all duration-300 hover:no-underline">
+                  <AccordionTrigger
+                    className="hover:text-[17px] transition-all duration-300 hover:no-underline"
+                    onClick={() => handleAccordionClick(data.key)}
+                  >
                     {data.question}
                   </AccordionTrigger>
-                  <AccordionContent>{data.answer}</AccordionContent>
+                  {openAccordion === data.key && (
+                    <AccordionContent>{data.answer}</AccordionContent>
+                  )}
                 </AccordionItem>
               </Accordion>
             ))}
