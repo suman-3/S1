@@ -5,7 +5,7 @@ import { tracks } from "@/data/tracks";
 
 export default function Tracks() {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row gap-10 my-5">
+    <div className="flex flex-wrap gap-5 md:gap-10 justify-center">
       {tracks.map((track, index) => (
         <TracksContainer key={index} {...track} />
       ))}

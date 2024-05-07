@@ -5,7 +5,7 @@ import { prizepool_type } from "@/interface";
 const PrizepoolCard = ({position, description, price, img}: prizepool_type) => {
   return (
     <div className="body mt-10">
-      <div className="nft flex justify-center items-center w-[350px]">
+      <div className="nft flex justify-center items-center w-[350px] h-[350px]">
         <div className="main">
           <img
             className="tokenImage w-[60%]"

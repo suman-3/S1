@@ -20,17 +20,10 @@ const PricePool = () => {
             className="p-5 px-10 rounded-lg"
           >
             <legend className="h2 px-2">Ultimate Prizes</legend>
-            <div className="flex md:flex-row lg:flex-row flex-col justify-center items-center lg:gap-10">
-              <div className="flex md:flex-row lg:flex-row flex-col-reverse justify-between items-center lg:gap-10">
-                {prizepoolContent.slice(0, 2).map((props, index) => (
-                  <PrizepoolCard key={index} {...props} />
-                ))}
-              </div>
-              <div className="flex md:flex-row lg:flex-row flex-col justify-between items-center">
-                {prizepoolContent.slice(2).map((props, index) => (
-                  <PrizepoolCard key={index} {...props} />
-                ))}
-              </div>
+            <div className="flex flex-wrap gap-5 md:gap-10 justify-center">
+              {prizepoolContent.map((props, index) => (
+                <PrizepoolCard key={index} {...props} />
+              ))}
             </div>
           </fieldset>
         </div>
