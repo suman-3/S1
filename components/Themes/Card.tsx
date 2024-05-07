@@ -6,7 +6,7 @@ import Image from "next/image";
 const Card = ({ img, icon: Icon, title }: tracks_type) => {
   return (
     <div className="body">
-      <div className="card">
+      <div className="card cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
         <Image
           width={768}
           height={768}
