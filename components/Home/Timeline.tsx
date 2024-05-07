@@ -1,7 +1,7 @@
 import React from "react";
 import MaxWidthWrapper from "../Wrapper/MaxWidthWrapper";
 import TimeLineCard from "../Card/TimeLineCard";
-import "../../app/styles/additional-styles/TimeLineCard.css";
+import "./TimeLineCard.css";
 import timelineContent from "@/data/timeline";
 
 const Timeline = () => {

@@ -3,7 +3,7 @@
 import ModalVideo from "@/components/utils/modal-video";
 import VideoThumb from "@/public/images/hero-image.png";
 import Link from "next/link";
-import "../../../app/styles/additional-styles/hero-text.css";
+import "./hero-text.css";
 import { useEffect } from "react";
 import Countdown from "@/components/Countdown/Countdown";
 import { DiscordButton } from "@/components/Discord/DiscordButton";

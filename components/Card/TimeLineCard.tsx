@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "../../app/styles/additional-styles/TimeLineCard.css";
+import "./TimeLineCard.css";
 import { timeline_type } from "@/interface";
 
 const TimeLineCard = ({
