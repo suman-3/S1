@@ -14,14 +14,14 @@ const TimeLineCard = ({
   points,
 }: timeline_type) => {
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 0.2,
   });
 
   return (
     <motion.div
       className={`card2 ${inView ? "active" : ""}`}
       ref={ref}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
     >
       <section className="relative min-h-[10rem] lg:h-[12rem] w-[20rem] lg:w-[25rem] overflow-hidden rounded-xl hover:shadow-xl">
         <div className="absolute inset-0 h-full w-full bg-black/70" />
