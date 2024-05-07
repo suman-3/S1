@@ -23,9 +23,11 @@ export interface organizer_type {
 }
 
 export interface tracks_type {
+  org: string;
+  track: string;
+  description: string;
+  prize: string;
   img: string;
-  title: string;
-  icon: React.ElementType;
 }
 
 export interface prizepool_type {
@@ -36,11 +38,10 @@ export interface prizepool_type {
 }
 
 export interface timeline_type {
-title: string;
-company_name: string;
-icon: string;
-iconBg: string;
-date: string;
-points: string[];
-
+  title: string;
+  company_name: string;
+  icon: string;
+  iconBg: string;
+  date: string;
+  points: string[];
 }
