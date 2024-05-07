@@ -19,14 +19,13 @@ export default function FAQ() {
       setOpenAccordion(key);
     }
   };
-  
+
   return (
     <section className="relative">
       <div
         className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 pointer-events-none"
         aria-hidden="true"
       ></div>
-      {/* <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div> */}
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-8 md:py-10">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
@@ -42,7 +41,7 @@ export default function FAQ() {
               <Accordion type="single" key={data.key} collapsible>
                 <AccordionItem value="item-1" className="">
                   <AccordionTrigger
-                    className="hover:text-[17px] transition-all duration-300 hover:no-underline"
+                    className="transition-all duration-500 hover:no-underline text-start"
                     onClick={() => handleAccordionClick(data.key)}
                   >
                     {data.question}
